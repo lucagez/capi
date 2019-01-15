@@ -24,10 +24,10 @@
 
 https://codepen.io/lucagez/full/GPNJdE
 
-####glitch (api only):
+#### glitch (api only):
 
-server ➡️ https://glitch.com/edit/#!/capi
-query ➡️ https://capi.glitch.me/api?user={YOURUSERNAME}
+- server ➡️ https://glitch.com/edit/#!/capi
+- query ➡️ https://capi.glitch.me/api?user={YOURUSERNAME}
 
 ## Installation
 
