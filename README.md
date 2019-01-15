@@ -82,6 +82,12 @@ can be equal to 'popular' or 'latest'. Indicates the order with which the pens a
 **type:** string. 
 **NOT-REQUIRED**.
 
+| argument   |      type     |  description  | required |
+|------------|:-------------:|:--------------|---------:|
+| user       | string        | Username      | **yes**  |
+| max        | number        | Max pages to fetch before stopping execution. If not set, Capi will simply continue to fetch pens until the very last one. | **no**  |
+| order      | string        | Can be equal to ```popular``` or ```latest```. Indicates the order with which the pens are retrieved. | **no**  |
+
 ## License
 
 Licensed under the MIT license.
