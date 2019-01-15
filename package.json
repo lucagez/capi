@@ -8,7 +8,7 @@
     "lint": "eslint src/*.js test/*.js",
     "lint-fix": "eslint src/*.js test/*.js --fix",
     "build": "microbundle src/capi.js --no-sourcemap",
-    "test": "node test/capi.test.js"
+    "test": "mocha test --timeout 25000"
   },
   "repository": {
     "type": "git",

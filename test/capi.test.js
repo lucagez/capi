@@ -1,5 +1,5 @@
 const assert = require('assert');
-const Capi = require('../src/capi');
+const Capi = require('../dist/capi');
 
 const isUser = async (name) => {
   let data;
