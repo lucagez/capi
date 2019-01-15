@@ -2,9 +2,13 @@
   "name": "capi",
   "version": "0.9.0",
   "description": "unofficial Codepen.io API",
-  "main": "capi.js",
+  "main": "dist/capi.js",
+  "module": "dist/capi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/*.js test/*.js",
+    "lint-fix": "eslint src/*.js test/*.js --fix",
+    "build": "microbundle src/capi.js --no-sourcemap",
+    "test": "node test/capi.test.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +27,8 @@
   "devDependencies": {
     "eslint": "^5.12.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.14.0",
+    "microbundle": "^0.9.0",
+    "mocha": "^5.2.0"
   }
 }
