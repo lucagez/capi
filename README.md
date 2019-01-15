@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="../gif/capi.gif" width="640" alt="tattica">
-  <br>
-</p>
+![](gif/capi.gif)
 
 # Capi
 > The unofficial Codepen.io API
@@ -59,9 +56,20 @@ const Capi = require('capi.js');
 
 Capi accepts the following parameters:
 
-- **user**, username. **type:** string. **REQUIRED**.
-- **max**, max pages to fetch before stopping execution. **type:** number. **NOT-REQUIRED**. if not set, Capi will simply continue to fetch pens until the very last one.
-- **order**, can be equal to 'popular' or 'latest'. Indicates the order with which the pens are retrieved. **type:** string. **NOT-REQUIRED**.
+1. **user**
+username. 
+**type:** string. 
+**REQUIRED**.
+
+2. **max**
+max pages to fetch before stopping execution. 
+**type:** number. 
+**NOT-REQUIRED**. if not set, Capi will simply continue to fetch pens until the very last one.
+
+3. **order**
+can be equal to 'popular' or 'latest'. Indicates the order with which the pens are retrieved. 
+**type:** string. 
+**NOT-REQUIRED**.
 
 ## License
 
