@@ -3,6 +3,14 @@
 # Capi
 > The unofficial Codepen.io API
 
+<p align="center">
+  <a href="https://travis-ci.org/lucagez/capi"><img src="https://travis-ci.com/lucagez/capi.svg?branch=master" alt="travis"></a>
+  <a href="https://www.npmjs.org/package/capi.js"><img src="https://img.shields.io/npm/v/capi.js.svg?style=flat" alt="npm"></a>
+  <img src="https://img.shields.io/badge/license-MIT-f1c40f.svg" alt="MIT">
+  <img src="https://img.shields.io/badge/PRs-welcome-6574cd.svg" alt="PR's welcome">
+  <img src="https://img.shields.io/badge/gzip%20size-647%20B-44cc11.svg" alt="gzip size">
+</p>
+
 ## How it works
 
 - Uses ```node-fetch``` to request data relative to the users.
@@ -56,17 +64,17 @@ const Capi = require('capi.js');
 
 Capi accepts the following parameters:
 
-1. **user**
+1. **user**,
 username. 
 **type:** string. 
 **REQUIRED**.
 
-2. **max**
+2. **max**,
 max pages to fetch before stopping execution. 
 **type:** number. 
 **NOT-REQUIRED**. if not set, Capi will simply continue to fetch pens until the very last one.
 
-3. **order**
+3. **order**,
 can be equal to 'popular' or 'latest'. Indicates the order with which the pens are retrieved. 
 **type:** string. 
 **NOT-REQUIRED**.
