@@ -1,5 +1,5 @@
 {
-  "name": "capi",
+  "name": "capi.js",
   "version": "0.9.0",
   "description": "unofficial Codepen.io API",
   "main": "dist/capi.js",
