@@ -20,12 +20,14 @@
 
 ## Demo
 
-- codepen (with front-end):
-    https://codepen.io/lucagez/full/GPNJdE
+#### codepen (with front-end):
 
-- glitch (api only):
-    server => https://glitch.com/edit/#!/capi
-    query => https://capi.glitch.me/api?user={ USERNAME }
+https://codepen.io/lucagez/full/GPNJdE
+
+####glitch (api only):
+
+server ➡️ https://glitch.com/edit/#!/capi
+query ➡️ https://capi.glitch.me/api?user={YOURUSERNAME}
 
 ## Installation
 
