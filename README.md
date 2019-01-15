@@ -1,15 +1,16 @@
-![](gif/capi.gif)
-
-# Capi
-> The unofficial Codepen.io API
-
 <p align="center">
+  <img src="gif/capi.gif" width="640" alt="gif of capi.js"/>  
+  <br>
   <a href="https://travis-ci.org/lucagez/capi"><img src="https://travis-ci.com/lucagez/capi.svg?branch=master" alt="travis"></a>
   <a href="https://www.npmjs.org/package/capi.js"><img src="https://img.shields.io/npm/v/capi.js.svg?style=flat" alt="npm"></a>
   <img src="https://img.shields.io/badge/license-MIT-f1c40f.svg" alt="MIT">
   <img src="https://img.shields.io/badge/PRs-welcome-6574cd.svg" alt="PR's welcome">
   <img src="https://img.shields.io/badge/gzip%20size-647%20B-44cc11.svg" alt="gzip size">
 </p>
+
+# Capi
+> The unofficial Codepen.io API
+
 
 ## How it works
 
