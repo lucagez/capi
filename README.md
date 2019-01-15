@@ -20,7 +20,7 @@
 
 ## Demo
 
-#### codepen (with front-end):
+#### codepen (with front-end, as in gif):
 
 https://codepen.io/lucagez/full/GPNJdE
 
@@ -51,7 +51,7 @@ const Capi = require('capi.js');
     const user = new Capi(username);
     const userData = await user.get();
 
-    console.log(userData)
+    console.log(userData);
     // => object
     // [{
     //  title: "pen1", 
